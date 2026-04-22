@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F0F0F"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80 170)">
+    <text font-family="Raleway, sans-serif" font-size="28" font-weight="400" fill="#F5A623" letter-spacing="6">
+      CHRISTIANDEAN.ME
+    </text>
+    <text y="120" font-family="Raleway, sans-serif" font-size="110" font-weight="700" fill="#F0EDE8">
+      Christian D. Smith
+    </text>
+    <text y="190" font-family="Raleway, sans-serif" font-size="40" font-weight="300" fill="#F0EDE8" opacity="0.75">
+      Builder. Strategist. Polymath.
+    </text>
+    <text y="330" font-family="monospace" font-size="22" fill="#F0EDE8" opacity="0.55" letter-spacing="3">
+      PM · SA · TAS · DE · AI PRODUCT ENGINEER
+    </text>
+  </g>
+</svg>

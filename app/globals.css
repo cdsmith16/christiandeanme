@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-mint: #50C878;
+  --color-teal: #0D7377;
+  --color-forest: #1B5E20;
+  --color-amber: #F5A623;
+  --color-bloom: #E8751A;
+  --color-azure: #2B6CB0;
+  --color-surface-light: #F7FAF7;
+  --color-surface-dark: #0F0F0F;
+  --color-surface-card: #1E1E1E;
+  --color-gray-mid: #5A5A5A;
+  --color-cream: #F0EDE8;
+  --color-ink: #1A1A1A;
+}
+
+html,
+body {
+  background-color: var(--color-surface-light);
+  color: var(--color-ink);
+  font-family: var(--font-oxygen), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+.grain {
+  position: relative;
+}
+
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.7) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+.bullet-collapse {
+  overflow: hidden;
+  transition: max-height 300ms ease-out, opacity 200ms ease-out, margin 250ms ease-out;
+}
+
+.card-collapse {
+  overflow: hidden;
+  transition: max-height 350ms ease-out, opacity 300ms ease-out, margin 250ms ease-out,
+    padding 250ms ease-out;
+}
+
+.project-link {
+  position: relative;
+  display: inline;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  transition: background-size 250ms ease-out;
+}
+
+.project-link:hover {
+  background-size: 100% 1px;
+}
+
+.persona-pill {
+  transition: background-color 200ms ease-out, color 200ms ease-out,
+    border-color 200ms ease-out, box-shadow 200ms ease-out, transform 150ms ease-out;
+}
+
+.persona-pill:hover {
+  box-shadow: 0 0 0 2px rgba(245, 166, 35, 0.25);
+}
+
+.sticky-shadow {
+  backdrop-filter: blur(8px);
+  background-color: rgba(247, 250, 247, 0.85);
+  box-shadow: 0 4px 14px rgba(15, 15, 15, 0.08);
+  border-bottom: 1px solid rgba(13, 115, 119, 0.08);
+}
+
+@keyframes scrollReveal {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal.visible {
+  animation: scrollReveal 600ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

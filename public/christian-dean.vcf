@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Smith;Christian;D.;;M.B.A.
+FN:Christian D. Smith
+TITLE:AI Product Engineer | Strategist
+ORG:Smith Labs LLC
+EMAIL;TYPE=INTERNET:christian@christiandean.me
+URL:https://christiandean.me
+URL;TYPE=WORK:https://smithlabs.llc
+END:VCARD
