@@ -1,4 +1,4 @@
-# christiandean.me
+# christiandsmith.com
 
 Interactive digital resume for Christian Dean.
 
@@ -35,4 +35,4 @@ Next.js · TypeScript · Tailwind CSS · Vercel
 
 **Christian D. Smith, M.B.A.**
 Stanford Symbolic Systems · Emory Goizueta
-[christiandean.me](https://christiandean.me) · [smithlabs.llc](https://smithlabs.llc)
+[christiandsmith.com](https://christiandsmith.com) · [smithlabs.llc](https://smithlabs.llc)

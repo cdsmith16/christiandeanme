@@ -7,7 +7,7 @@ export const contentType = 'image/png';
 async function loadRaleway(weight: 300 | 700) {
   const css = await fetch(
     `https://fonts.googleapis.com/css2?family=Raleway:wght@${weight}&text=${encodeURIComponent(
-      'Christian D. Smith Builder. Strategist. Polymath. CHRISTIANDEAN.ME ·PMSATDEAI'
+      'Christian D. Smith Builder. Strategist. Polymath. CHRISTIANDSMITH.COM ·PMSATDEAI'
     )}`,
     { headers: { 'User-Agent': 'Mozilla/5.0' } }
   ).then((r) => r.text());
@@ -52,7 +52,7 @@ export default async function OgImage() {
             fontWeight: 300,
           }}
         >
-          CHRISTIANDEAN.ME
+          CHRISTIANDSMITH.COM
         </div>
         <div
           style={{

@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: 'swap',
 });
 
-const siteUrl = 'https://christiandean.me';
+const siteUrl = 'https://christiandsmith.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

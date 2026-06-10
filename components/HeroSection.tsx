@@ -21,7 +21,7 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
               className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-amber animate-fade-in"
               style={{ animationDelay: '0ms' }}
             >
-              christiandean.me
+              christiandsmith.com
             </p>
             <h1
               className="font-display text-5xl font-bold leading-[1.05] text-cream md:text-7xl animate-fade-in-up"
