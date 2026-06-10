@@ -38,14 +38,6 @@ export const metadata: Metadata = {
     description: 'Builder. Strategist. Polymath.',
     url: siteUrl,
     siteName: 'Christian Dean',
-    images: [
-      {
-        url: '/og-image.svg',
-        width: 1200,
-        height: 630,
-        alt: 'Christian Dean',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
@@ -53,7 +45,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Christian Dean',
     description: 'Builder. Strategist. Polymath.',
-    images: ['/og-image.svg'],
   },
   icons: {
     icon: '/favicon.svg',
@@ -73,7 +64,7 @@ const personSchema = {
   ],
   url: siteUrl,
   sameAs: [
-    'https://www.linkedin.com/in/christiandsmith',
+    'https://linkedin.com/in/chrsdsmth',
     'https://github.com/cdsmith16',
     'https://smithlabs.llc',
   ],

@@ -4,7 +4,9 @@ N:Smith;Christian;D.;;M.B.A.
 FN:Christian D. Smith
 TITLE:AI Product Engineer | Strategist
 ORG:Smith Labs LLC
-EMAIL;TYPE=INTERNET:christian@christiandean.me
+EMAIL;TYPE=INTERNET:christian@christiandsmith.com
+TEL;TYPE=CELL:+19738665547
 URL:https://christiandean.me
 URL;TYPE=WORK:https://smithlabs.llc
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/chrsdsmth
 END:VCARD

@@ -16,14 +16,14 @@ export default function Footer() {
 
         <div className="flex flex-wrap items-center gap-4 text-gray-mid">
           <a
-            href="mailto:christian@christiandean.me"
+            href="mailto:christian@christiandsmith.com"
             aria-label="Email"
             className="transition-transform hover:scale-110 hover:text-forest"
           >
             <Mail size={18} strokeWidth={1.75} />
           </a>
           <a
-            href="https://www.linkedin.com/in/christiandsmith"
+            href="https://linkedin.com/in/chrsdsmth"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="LinkedIn"
