@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { personas } from '@/lib/personas';
 import type { PersonaId } from '@/lib/types';
 import BirdOfParadise from './BirdOfParadise';
@@ -23,11 +24,10 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
             >
               christiandsmith.com
             </p>
-            <h1
-              className="font-display text-5xl font-bold leading-[1.05] text-cream md:text-7xl animate-fade-in-up"
-              style={{ animationDelay: '0ms' }}
-            >
-              Christian D. Smith
+            <h1 className="font-display leading-[1.05] animate-fade-in-up" style={{ animationDelay: '0ms' }}>
+              <Link href="/" className="text-5xl font-bold text-cream md:text-7xl no-underline hover:text-cream">
+                Christian D. Smith
+              </Link>
             </h1>
             <p
               className="mt-2 font-display text-2xl font-light text-cream/70 md:text-3xl animate-fade-in-up"
