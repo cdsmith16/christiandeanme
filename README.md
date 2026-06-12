@@ -17,7 +17,7 @@ Six role filters sit at the top of the page. Tap one (or several) and the experi
 
 - **Product Manager** — roadmaps, 0→1 launches, stakeholder alignment, value
 - **Solutions Architect** — system design, integrations & deployments, technical pre-sales
-- **Technical Account Strategist** — enterprise relationships, strategic advisory, client growth, deals
+- **Technical Account Manager** — enterprise relationships, strategic advisory, client growth, deals
 - **Data Engineer** — pipelines, analytics platforms, ML infrastructure, secure ETL
 - **AI Product Engineer** — full-stack development, AI-accelerated
 - **Venture & Strategy** — deal structuring, financial modeling, investment theses

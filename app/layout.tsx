@@ -58,7 +58,7 @@ const personSchema = {
   jobTitle: [
     'Product Manager',
     'Solutions Architect',
-    'Technical Account Strategist',
+    'Technical Account Manager',
     'Data Engineer',
     'AI Product Engineer',
     'Venture & Strategy Analyst',
