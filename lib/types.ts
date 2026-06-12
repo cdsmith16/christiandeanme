@@ -1,7 +1,7 @@
 export type PersonaId =
   | 'product-manager'
   | 'solutions-architect'
-  | 'technical-account-strategist'
+  | 'technical-account-manager'
   | 'data-engineer'
   | 'ai-product-engineer'
   | 'venture-strategist';

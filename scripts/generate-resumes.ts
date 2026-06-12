@@ -59,7 +59,7 @@ function buildPdf(selected: PersonaId[]): Promise<void> {
     .fontSize(9)
     .fillColor(GRAY)
     .text(
-      'cdsmith@alumni.stanford.edu  ·  (973) 634-0422  ·  Brooklyn, NY  ·  christiandsmith.com  ·  linkedin.com/in/cdsmith1990'
+      'christian@christiandsmith.com  ·  (973) 634-0422  ·  New York | New Jersey  ·  christiandsmith.com  ·  linkedin.com/in/cdsmith1990'
     );
 
   if (lensLabels.length > 0) {

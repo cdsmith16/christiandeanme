@@ -16,7 +16,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap items-center gap-4 text-gray-mid">
           <a
-            href="mailto:cdsmith@alumni.stanford.edu"
+            href="mailto:christian@christiandsmith.com"
             aria-label="Email"
             className="transition-transform hover:scale-110 hover:text-forest"
           >

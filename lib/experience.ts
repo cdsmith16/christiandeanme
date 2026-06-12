@@ -34,7 +34,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'sl-5',
         text: 'Expert network consultant providing strategy, operations, and technical due diligence to growth-stage companies',
-        personas: ['technical-account-strategist', 'solutions-architect', 'venture-strategist'],
+        personas: ['technical-account-manager', 'solutions-architect', 'venture-strategist'],
       },
       {
         id: 'sl-6',
@@ -61,7 +61,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'aws-2',
         text: 'Structured and negotiated complex renewals averaging $225M revenue with 14% above-target growth across finance, travel, and tech verticals',
-        personas: ['technical-account-strategist', 'venture-strategist'],
+        personas: ['technical-account-manager', 'venture-strategist'],
       },
       {
         id: 'aws-3',
@@ -76,7 +76,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'aws-5',
         text: 'Partnered with AWS product teams to negotiate favorable terms and investments for strategic accounts',
-        personas: ['technical-account-strategist', 'venture-strategist', 'product-manager'],
+        personas: ['technical-account-manager', 'venture-strategist', 'product-manager'],
       },
     ],
   },
@@ -98,12 +98,12 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'tl-2',
         text: 'Managed technical partnerships with Google Open Bidding and Amazon Publisher Services, defending $224M revenue (80% of business)',
-        personas: ['technical-account-strategist', 'solutions-architect'],
+        personas: ['technical-account-manager', 'solutions-architect'],
       },
       {
         id: 'tl-3',
         text: 'Architected strategic supply integrations like AdMob ($10M+ new ad spend) and managed external engineers on CTV, unblocking $4M in marketplace liquidity',
-        personas: ['solutions-architect', 'technical-account-strategist'],
+        personas: ['solutions-architect', 'technical-account-manager'],
       },
       {
         id: 'tl-4',
@@ -118,7 +118,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'tl-6',
         text: 'Mentored business development associate into a full-time software engineering role',
-        personas: ['product-manager', 'technical-account-strategist'],
+        personas: ['product-manager', 'technical-account-manager'],
       },
     ],
   },
@@ -139,7 +139,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'im-2',
         text: 'Managed pixel, JavaScript, and API implementations with DSPs, Networks, SSPs, and Publishers',
-        personas: ['solutions-architect', 'technical-account-strategist'],
+        personas: ['solutions-architect', 'technical-account-manager'],
       },
       {
         id: 'im-3',
@@ -181,7 +181,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'nm-5',
         text: 'Led internal SCRUM development while providing external technical consultation to enterprise clients',
-        personas: ['product-manager', 'technical-account-strategist'],
+        personas: ['product-manager', 'technical-account-manager'],
       },
     ],
   },
@@ -225,7 +225,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'cl-1',
         text: 'Technical lead for developer relations — led trainings for 200+ educational app companies and advised strategic accounts like Schoology',
-        personas: ['technical-account-strategist', 'solutions-architect'],
+        personas: ['technical-account-manager', 'solutions-architect'],
       },
       {
         id: 'cl-2',
@@ -235,7 +235,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'cl-3',
         text: 'Consulted EdTech developers on securely integrating roster data via OAuth SSO; one of two Partner Engineers serving 200+ apps as escalation point during Back to School',
-        personas: ['solutions-architect', 'technical-account-strategist'],
+        personas: ['solutions-architect', 'technical-account-manager'],
       },
       {
         id: 'cl-4',
@@ -257,7 +257,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'k-1',
         text: 'Generated $2M net new ARR (33% of total) through Intelligent SDK rollout and strategic client integrations, from Series A through acquisition',
-        personas: ['solutions-architect', 'technical-account-strategist', 'venture-strategist'],
+        personas: ['solutions-architect', 'technical-account-manager', 'venture-strategist'],
       },
       {
         id: 'k-2',
@@ -277,7 +277,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'k-5',
         text: 'Drove 125% net revenue retention of strategic partners through off-site trainings and global developer support',
-        personas: ['technical-account-strategist'],
+        personas: ['technical-account-manager'],
       },
       {
         id: 'k-6',

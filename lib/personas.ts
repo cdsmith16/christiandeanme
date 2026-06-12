@@ -22,9 +22,9 @@ export const personas: Persona[] = [
     color: '#F5A623',
   },
   {
-    id: 'technical-account-strategist',
-    label: 'Technical Account Strategist',
-    shortLabel: 'TAS',
+    id: 'technical-account-manager',
+    label: 'Technical Account Manager',
+    shortLabel: 'TAM',
     description: 'Client-facing strategy, enterprise relationships, account growth',
     narrative:
       'The technical counterpart enterprise accounts trust: 125% net revenue retention at Kahuna, $224M defended at TripleLift, $225M renewals structured at AWS. A decade of relationships kept — and grown — through technical credibility.',
