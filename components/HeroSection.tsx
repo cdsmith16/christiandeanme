@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { personas } from '@/lib/personas';
 import type { PersonaId } from '@/lib/types';
 import BirdOfParadise from './BirdOfParadise';
@@ -17,9 +18,14 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
       <div className="relative mx-auto max-w-5xl px-6 py-20 md:px-10 md:py-28">
         <div className="grid gap-12 md:grid-cols-[1.3fr_1fr] md:items-end">
           <div>
+            <p
+              className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-amber animate-fade-in"
+              style={{ animationDelay: '0ms' }}
+            >
+              christiandsmith.com
             </p>
             <h1 className="font-display leading-[1.05] animate-fade-in-up" style={{ animationDelay: '0ms' }}>
-              <Link to="/" className="text-5xl font-bold text-cream md:text-7xl no-underline hover:text-cream">
+              <Link href="/" className="text-5xl font-bold text-cream md:text-7xl no-underline hover:text-cream">
                 Christian D. Smith
               </Link>
             </h1>
@@ -33,23 +39,32 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
               className="mt-6 font-display text-xl font-medium text-amber md:text-2xl animate-fade-in-up"
               style={{ animationDelay: '300ms' }}
             >
-              AI Product Engineer <span className="text-gray-mid">|</span>{' '}
-              Strategist
+              Product Engineer <span className="text-gray-mid">|</span>{' '}
+              Strategy
+            </p>
+            <p
+              className="mt-6 max-w-md font-body text-[15px] leading-relaxed text-cream/70 animate-fade-in-up"
+              style={{ animationDelay: '400ms' }}
+            >
+              Fifteen years building at the intersection of product,
+              engineering, and business strategy — Microsoft, Sequoia-backed
+              startups, AWS, and now Smith Labs. One career, many lenses.
+              Choose the one that matches what you&apos;re hiring for.
             </p>
             <div
               className="mt-8 flex flex-col gap-1 font-mono text-xs text-cream/60 animate-fade-in-up"
               style={{ animationDelay: '450ms' }}
             >
               <a
-                href="mailto:christian@christiandsmith.com"
+                href="mailto:cdsmith@alumni.stanford.edu"
                 className="project-link w-fit hover:text-amber"
               >
-                christian@christiandsmith.com
+                cdsmith@alumni.stanford.edu
               </a>
-              <a href="tel:+19738665547" className="project-link w-fit hover:text-amber">
-                (973) 866-5547
+              <a href="tel:+19736340422" className="project-link w-fit hover:text-amber">
+                (973) 634-0422
               </a>
-              <span>New York, NY</span>
+              <span>Brooklyn, NY</span>
             </div>
           </div>
 

@@ -2,27 +2,78 @@ import type { SkillCategory } from './types';
 
 export const skills: SkillCategory[] = [
   {
+    name: 'Cloud & Certifications',
+    skills: [
+      'AWS Certified Solutions Architect (SAA)',
+      'AWS Certified Cloud Practitioner',
+      'GCP',
+      'Vercel',
+      'Heroku',
+      'Docker',
+    ],
+  },
+  {
     name: 'Languages & Frameworks',
-    skills: ['Python', 'TypeScript', 'JavaScript', 'React', 'Next.js', 'Node.js', 'SQL', 'HTML/CSS'],
+    skills: [
+      'Python',
+      'SQL',
+      'Java',
+      'JavaScript/TypeScript',
+      'React/Redux',
+      'Next.js',
+      'Swift',
+      'Objective-C',
+      'HTML/CSS',
+    ],
   },
   {
-    name: 'Data & ML',
-    skills: ['Pandas', 'Spark', 'TensorFlow', 'Jupyter', 'dbt', 'Airflow', 'BigQuery', 'Redshift'],
+    name: 'Data & Analytics',
+    skills: [
+      'Snowflake',
+      'BigQuery',
+      'Databricks',
+      'ETL Pipelines',
+      'ELK/Kibana',
+      'Looker',
+      'SiSense',
+      'Jupyter',
+    ],
   },
   {
-    name: 'Cloud & Infrastructure',
-    skills: ['AWS', 'GCP', 'Vercel', 'Supabase', 'Docker', 'Prisma', 'PostgreSQL', 'GitHub Actions'],
-  },
-  {
-    name: 'Product & Design',
-    skills: ['Figma', 'Jira', 'Amplitude', 'Mixpanel', 'Notion', 'Linear', 'Miro'],
+    name: 'Product & Program',
+    skills: [
+      'Agile/SCRUM',
+      'Roadmapping',
+      'PRDs & Functional Specs',
+      'API Design',
+      'Wireframing (Sketch, Figma)',
+      'Developer Documentation',
+      'A/B Testing',
+    ],
   },
   {
     name: 'AI & LLMs',
-    skills: ['Claude / Anthropic API', 'GPT-4', 'LangChain', 'Prompt Engineering', 'RLHF', 'RAG', 'Claude Code'],
+    skills: [
+      'Claude / Anthropic API',
+      'Claude Code',
+      'Prompt Engineering',
+      'LLM Integration',
+      'RAG',
+      'Agentic Pipelines',
+    ],
   },
   {
-    name: 'AdTech & MarTech',
-    skills: ['OpenRTB', 'VAST', 'Header Bidding', 'Prebid', 'DMP/CDP', 'Campaign Analytics'],
+    name: 'Business & Strategy',
+    skills: [
+      'Deal Structuring',
+      'Financial Modeling',
+      'Stakeholder Management',
+      'Go-to-Market',
+      'Technical Due Diligence',
+    ],
+  },
+  {
+    name: 'Spoken Languages',
+    skills: ['Spanish (Professional)', 'Portuguese (Elementary)', 'Italian (Basic)'],
   },
 ];

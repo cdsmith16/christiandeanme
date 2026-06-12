@@ -57,13 +57,20 @@ export default function ExperienceCard({ entry, selected }: Props) {
               {entry.company}
             </h3>
             <span className="font-mono text-[11px] uppercase tracking-widest text-gray-mid">
-              {entry.startDate} — {entry.endDate}
+              {entry.startDate === entry.endDate
+                ? entry.startDate
+                : `${entry.startDate} — ${entry.endDate}`}
             </span>
           </div>
           <p className="mt-1 font-body text-[15px] text-ink/80">
             {entry.role}
             <span className="text-gray-mid"> · {entry.location}</span>
           </p>
+          {entry.summary && (
+            <p className="mt-1.5 font-body text-[13px] italic text-gray-mid">
+              {entry.summary}
+            </p>
+          )}
           <div className="mt-4 space-y-1">
             {entry.bullets.map((b) => (
               <BulletPoint key={b.id} bullet={b} selected={selected} />

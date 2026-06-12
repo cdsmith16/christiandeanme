@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# generated resume PDFs (built by scripts/generate-resumes.ts via prebuild)
+/public/resumes/
+
 # production
 /build
 
