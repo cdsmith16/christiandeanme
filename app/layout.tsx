@@ -61,6 +61,7 @@ const personSchema = {
     'Technical Account Strategist',
     'Data Engineer',
     'AI Product Engineer',
+    'Venture & Strategy Analyst',
   ],
   url: siteUrl,
   sameAs: [

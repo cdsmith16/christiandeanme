@@ -18,6 +18,9 @@ const OUT_DIR = join(process.cwd(), 'public', 'resumes');
 // Standard PDF fonts use WinAnsi encoding, which lacks arrows and similar glyphs.
 const sanitize = (s: string) => s.replace(/\s*→\s*/g, ' to ');
 
+const MASTER_PROFILE =
+  'Technical leader with 15 years building at the intersection of product, engineering, and business strategy — from shipping Windows 8.1 at Microsoft to $6B deal platforms at AWS to founding an AI product studio. Stanford-trained in Human-Computer Interaction; Emory MBA with full Consortium fellowship; AWS Certified Solutions Architect.';
+
 const INK = '#1A1A1A';
 const FOREST = '#1B5E20';
 const TEAL = '#0D7377';
@@ -67,6 +70,15 @@ function buildPdf(selected: PersonaId[]): Promise<void> {
       .text(`Tailored view: ${lensLabels.join('  ·  ')}`, { oblique: true });
   }
 
+  // Profile: the persona's positioning statement when one lens is selected,
+  // otherwise the master profile.
+  const profile =
+    selected.length === 1
+      ? personas.find((p) => p.id === selected[0])!.narrative
+      : MASTER_PROFILE;
+  doc.moveDown(0.5);
+  doc.font('Helvetica').fontSize(9.5).fillColor(INK).text(sanitize(profile), { lineGap: 1.5 });
+
   const rule = () => {
     doc.moveDown(0.5);
     doc
@@ -111,6 +123,13 @@ function buildPdf(selected: PersonaId[]): Promise<void> {
       .fontSize(9.5)
       .fillColor(INK)
       .text(sanitize(`${job.role}  ·  ${job.location}`));
+    if (job.summary) {
+      doc
+        .font('Helvetica-Oblique')
+        .fontSize(8.5)
+        .fillColor(GRAY)
+        .text(sanitize(job.summary));
+    }
     doc.moveDown(0.25);
 
     for (const b of bullets) {

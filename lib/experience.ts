@@ -8,6 +8,7 @@ export const experience: ExperienceEntry[] = [
     startDate: '2021',
     endDate: 'Present',
     location: 'New York, NY',
+    summary: 'Product studio manifesting visions — mine and clients’ — into shipped software.',
     bullets: [
       {
         id: 'sl-1',
@@ -18,7 +19,7 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'sl-2',
         text: 'Accepted to Visible Hands NYC 2022, a pre-seed accelerator investing in underrepresented founders',
-        personas: ['product-manager'],
+        personas: ['product-manager', 'venture-strategist'],
       },
       {
         id: 'sl-3',
@@ -33,7 +34,12 @@ export const experience: ExperienceEntry[] = [
       {
         id: 'sl-5',
         text: 'Expert network consultant providing strategy, operations, and technical due diligence to growth-stage companies',
-        personas: ['technical-account-strategist', 'solutions-architect'],
+        personas: ['technical-account-strategist', 'solutions-architect', 'venture-strategist'],
+      },
+      {
+        id: 'sl-6',
+        text: 'Developed investment thesis around "direct thought to execution" — the convergence of brain-computer interfaces with orchestrated AI agents',
+        personas: ['venture-strategist', 'ai-product-engineer'],
       },
     ],
   },
@@ -44,31 +50,33 @@ export const experience: ExperienceEntry[] = [
     startDate: '2022',
     endDate: '2024',
     location: 'Seattle & New York',
+    summary:
+      'Technical deal execution for AWS’s largest enterprise accounts — the intersection of product, sales, and finance.',
     bullets: [
       {
         id: 'aws-1',
-        text: 'Designed and launched Strategic Approvals platform from 0→1, processing $6B+ in enterprise deals (H2 2022) — defined requirements, led SCRUM development, and trained 50+ strategic sales users',
+        text: 'Owned high-visibility Strategic Approvals platform used by ~400 strategic sales leaders and processing $6B+ in enterprise deals — product owner, SRE, and data pipeline owner in one',
         personas: ['product-manager', 'solutions-architect'],
       },
       {
         id: 'aws-2',
         text: 'Structured and negotiated complex renewals averaging $225M revenue with 14% above-target growth across finance, travel, and tech verticals',
-        personas: ['technical-account-strategist'],
+        personas: ['technical-account-strategist', 'venture-strategist'],
       },
       {
         id: 'aws-3',
         text: 'Led organization-wide Early Renewals analysis, identifying data-driven policy changes that unlocked 24% Y1 growth',
-        personas: ['data-engineer', 'product-manager'],
+        personas: ['data-engineer', 'venture-strategist'],
       },
       {
         id: 'aws-4',
-        text: 'Managed Monthly Business Review reporting and led strategic investigations to optimize APAC growth',
-        personas: ['data-engineer', 'technical-account-strategist'],
+        text: 'Built reporting infrastructure behind Monthly Business Reviews and led strategic investigations to optimize APAC growth',
+        personas: ['data-engineer', 'product-manager'],
       },
       {
         id: 'aws-5',
         text: 'Partnered with AWS product teams to negotiate favorable terms and investments for strategic accounts',
-        personas: ['technical-account-strategist', 'product-manager'],
+        personas: ['technical-account-strategist', 'venture-strategist', 'product-manager'],
       },
     ],
   },
@@ -79,39 +87,36 @@ export const experience: ExperienceEntry[] = [
     startDate: '2019',
     endDate: '2020',
     location: 'New York, NY',
+    summary:
+      'Leading native programmatic ad exchange driving monetization for partners including Google and Amazon.',
     bullets: [
       {
         id: 'tl-1',
-        text: 'Spearheaded mobile product strategy for a $45M+ opportunity — developed roadmap, financial model, and pilot implementations from market research through launch, achieving $3M revenue',
-        personas: ['product-manager'],
+        text: 'Spearheaded mobile product strategy for a $45M+ opportunity — built the financial model, roadmap, and pilot implementations from market research through launch, achieving $3M revenue',
+        personas: ['product-manager', 'venture-strategist'],
       },
       {
         id: 'tl-2',
-        text: 'Managed technical partnerships with Google Open Bidding and Amazon APS, defending $224M revenue (80% of business)',
+        text: 'Managed technical partnerships with Google Open Bidding and Amazon Publisher Services, defending $224M revenue (80% of business)',
         personas: ['technical-account-strategist', 'solutions-architect'],
       },
       {
         id: 'tl-3',
-        text: 'Architected strategic supply integrations like AdMob, accounting for $10M+ in new ad spend',
-        personas: ['solutions-architect'],
-      },
-      {
-        id: 'tl-4',
-        text: 'Managed external engineers for CTV supply-side integrations, unblocking $4M in marketplace liquidity',
+        text: 'Architected strategic supply integrations like AdMob ($10M+ new ad spend) and managed external engineers on CTV, unblocking $4M in marketplace liquidity',
         personas: ['solutions-architect', 'technical-account-strategist'],
       },
       {
-        id: 'tl-5',
-        text: 'Architected batch optimization reducing annual API COGS by $250K; built IAB compliance Python crawler and Java exchange adapters',
-        personas: ['data-engineer', 'solutions-architect'],
+        id: 'tl-4',
+        text: 'Architected batch optimization reducing annual API COGS by $250K; wrote IAB compliance Python crawler and Java Core Exchange adapters',
+        personas: ['data-engineer', 'solutions-architect', 'ai-product-engineer'],
       },
       {
-        id: 'tl-6',
-        text: 'Enhanced supply-side health monitoring by integrating ELK logs into company-wide Looker dashboards and automated reports',
+        id: 'tl-5',
+        text: 'Enhanced supply-side health monitoring by piping ELK logs into company-wide Looker dashboards and automated reports',
         personas: ['data-engineer'],
       },
       {
-        id: 'tl-7',
+        id: 'tl-6',
         text: 'Mentored business development associate into a full-time software engineering role',
         personas: ['product-manager', 'technical-account-strategist'],
       },
@@ -124,6 +129,7 @@ export const experience: ExperienceEntry[] = [
     startDate: '2018',
     endDate: '2019',
     location: 'New York, NY',
+    summary: 'Full-funnel ad verification (Forensiq) for the programmatic ecosystem.',
     bullets: [
       {
         id: 'im-1',
@@ -149,6 +155,8 @@ export const experience: ExperienceEntry[] = [
     startDate: '2017',
     endDate: '2019',
     location: 'New York, NY',
+    summary:
+      'Nielsen’s DMP — the bridge between product engineering and global account teams.',
     bullets: [
       {
         id: 'nm-1',
@@ -184,6 +192,8 @@ export const experience: ExperienceEntry[] = [
     startDate: '2017',
     endDate: '2017',
     location: 'Latin America & Newark, NJ',
+    summary:
+      'A deliberate year building, traveling Latin America, and sharpening the full-stack toolkit.',
     bullets: [
       {
         id: 'ic-1',
@@ -210,10 +220,11 @@ export const experience: ExperienceEntry[] = [
     startDate: '2016',
     endDate: '2017',
     location: 'San Francisco, CA',
+    summary: 'EdTech platform connecting 60,000+ U.S. schools to their applications.',
     bullets: [
       {
         id: 'cl-1',
-        text: 'Technical lead for developer relations at EdTech platform serving 60,000+ U.S. schools — led trainings for 200+ educational app companies and advised strategic accounts like Schoology',
+        text: 'Technical lead for developer relations — led trainings for 200+ educational app companies and advised strategic accounts like Schoology',
         personas: ['technical-account-strategist', 'solutions-architect'],
       },
       {
@@ -223,7 +234,7 @@ export const experience: ExperienceEntry[] = [
       },
       {
         id: 'cl-3',
-        text: 'Consulted EdTech developers on securely integrating roster data from U.S. School Information Systems via OAuth SSO; client-facing escalation point during Back to School',
+        text: 'Consulted EdTech developers on securely integrating roster data via OAuth SSO; one of two Partner Engineers serving 200+ apps as escalation point during Back to School',
         personas: ['solutions-architect', 'technical-account-strategist'],
       },
       {
@@ -235,16 +246,18 @@ export const experience: ExperienceEntry[] = [
   },
   {
     id: 'kahuna',
-    company: 'Kahuna (Sequoia Capital Portfolio)',
+    company: 'Kahuna',
     role: 'Solutions Engineer → Sr. Solutions Engineer',
     startDate: '2014',
     endDate: '2016',
     location: 'Palo Alto / Redwood City, CA',
+    summary:
+      'Sequoia-backed marketing automation startup — joined post-Series A, stayed through acquisition.',
     bullets: [
       {
         id: 'k-1',
         text: 'Generated $2M net new ARR (33% of total) through Intelligent SDK rollout and strategic client integrations, from Series A through acquisition',
-        personas: ['solutions-architect', 'technical-account-strategist'],
+        personas: ['solutions-architect', 'technical-account-strategist', 'venture-strategist'],
       },
       {
         id: 'k-2',
@@ -268,13 +281,8 @@ export const experience: ExperienceEntry[] = [
       },
       {
         id: 'k-6',
-        text: 'Wrote custom Python solutions leveraging Kahuna APIs for content recommendations (Pluto TV, Seatgeek) and historical data imports',
+        text: 'Wrote custom Python solutions leveraging Kahuna APIs for content recommendations (Pluto TV, Seatgeek) and client-side integrations in Android Java, iOS Swift, and Objective-C',
         personas: ['data-engineer', 'ai-product-engineer'],
-      },
-      {
-        id: 'k-7',
-        text: 'Debugged and wrote client-side integrations in Android Java, iOS Swift, and Objective-C',
-        personas: ['ai-product-engineer', 'solutions-architect'],
       },
     ],
   },
@@ -285,6 +293,7 @@ export const experience: ExperienceEntry[] = [
     startDate: '2013',
     endDate: '2014',
     location: 'Redmond, WA',
+    summary: 'Windows platform org — shipped Windows 8.1 and the Surface 2 launch.',
     bullets: [
       {
         id: 'ms-1',
@@ -298,13 +307,13 @@ export const experience: ExperienceEntry[] = [
       },
       {
         id: 'ms-3',
-        text: 'Worked with Windows Phone team to port and converge legacy Windows Audio APIs to WinJS',
-        personas: ['solutions-architect'],
+        text: 'Worked with Windows Phone team to port and converge legacy Windows Audio APIs to WinJS; debugged issues in C++ device drivers',
+        personas: ['solutions-architect', 'ai-product-engineer'],
       },
       {
         id: 'ms-4',
-        text: 'Led media user scenario testing for touch devices and debugged issues in C++ device drivers',
-        personas: ['product-manager', 'ai-product-engineer'],
+        text: 'Led media user scenario testing for touch devices and product investigations on voice opportunities for future releases',
+        personas: ['product-manager'],
       },
     ],
   },

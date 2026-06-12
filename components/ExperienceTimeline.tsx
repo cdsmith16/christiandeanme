@@ -1,4 +1,5 @@
 import { experience } from '@/lib/experience';
+import { personas } from '@/lib/personas';
 import type { PersonaId } from '@/lib/types';
 import ExperienceCard from './ExperienceCard';
 import ScrollReveal from './ScrollReveal';
@@ -8,6 +9,11 @@ type Props = {
 };
 
 export default function ExperienceTimeline({ selected }: Props) {
+  const activeNarrative =
+    selected.length === 1
+      ? personas.find((p) => p.id === selected[0])
+      : undefined;
+
   return (
     <section id="experience" className="bg-surface-light py-16 md:py-24">
       <div className="mx-auto max-w-5xl px-6 md:px-10">
@@ -19,6 +25,11 @@ export default function ExperienceTimeline({ selected }: Props) {
             <h2 className="mt-2 font-display text-3xl font-bold text-forest md:text-4xl">
               Experience
             </h2>
+            {activeNarrative && (
+              <blockquote className="mt-5 max-w-2xl border-l-2 border-amber pl-4 font-body text-[15px] italic leading-relaxed text-ink/75">
+                {activeNarrative.narrative}
+              </blockquote>
+            )}
           </header>
         </ScrollReveal>
 

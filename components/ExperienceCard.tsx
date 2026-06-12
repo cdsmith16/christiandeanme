@@ -66,6 +66,11 @@ export default function ExperienceCard({ entry, selected }: Props) {
             {entry.role}
             <span className="text-gray-mid"> · {entry.location}</span>
           </p>
+          {entry.summary && (
+            <p className="mt-1.5 font-body text-[13px] italic text-gray-mid">
+              {entry.summary}
+            </p>
+          )}
           <div className="mt-4 space-y-1">
             {entry.bullets.map((b) => (
               <BulletPoint key={b.id} bullet={b} selected={selected} />

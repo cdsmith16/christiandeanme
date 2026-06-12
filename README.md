@@ -11,7 +11,7 @@ So I built a digital resume that allows you highlight which experiences and skil
 
 Select a perspective. The resume reshapes itself.
 
-Five role filters sit at the top of the page. Tap one (or several) and the experience below collapses to show the accomplishments relevant to that role type. Deselect all and the full picture returns.
+Six role filters sit at the top of the page. Tap one (or several) and the experience below collapses to show the accomplishments relevant to that role type. Deselect all and the full picture returns.
 
 **The perspectives:**
 
@@ -20,8 +20,9 @@ Five role filters sit at the top of the page. Tap one (or several) and the exper
 - **Technical Account Strategist** — enterprise relationships, strategic advisory, client growth, deals
 - **Data Engineer** — pipelines, analytics platforms, ML infrastructure, secure ETL
 - **AI Product Engineer** — full-stack development, AI-accelerated
+- **Venture & Strategy** — deal structuring, financial modeling, investment theses
 
-Same career. Five stories. Each one real.
+Same career. Six stories. Each one real.
 
 ## Digital Business Card
 

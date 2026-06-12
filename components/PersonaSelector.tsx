@@ -7,6 +7,7 @@ import {
   Users,
   Database,
   Cpu,
+  TrendingUp,
   X,
   FileDown,
   type LucideIcon,
@@ -21,6 +22,7 @@ const ICONS: Record<string, LucideIcon> = {
   Users,
   Database,
   Cpu,
+  TrendingUp,
 };
 
 type Props = {
