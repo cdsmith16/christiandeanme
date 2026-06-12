@@ -47,15 +47,15 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
               style={{ animationDelay: '450ms' }}
             >
               <a
-                href="mailto:christian@christiandsmith.com"
+                href="mailto:cdsmith@alumni.stanford.edu"
                 className="project-link w-fit hover:text-amber"
               >
-                christian@christiandsmith.com
+                cdsmith@alumni.stanford.edu
               </a>
-              <a href="tel:+19738665547" className="project-link w-fit hover:text-amber">
-                (973) 866-5547
+              <a href="tel:+19736340422" className="project-link w-fit hover:text-amber">
+                (973) 634-0422
               </a>
-              <span>New York, NY</span>
+              <span>Brooklyn, NY</span>
             </div>
           </div>
 

@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Smith;Christian;D.;;M.B.A.
+FN:Christian D. Smith
+TITLE:Product Engineer | Strategy
+ORG:Smith Labs LLC
+EMAIL;TYPE=INTERNET:cdsmith@alumni.stanford.edu
+TEL;TYPE=CELL:+19736340422
+ADR;TYPE=HOME:;;;Brooklyn;NY;;USA
+URL:https://christiandsmith.com
+URL;TYPE=WORK:https://smithlabs.llc
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/cdsmith1990
+END:VCARD

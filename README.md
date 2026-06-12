@@ -4,7 +4,7 @@ Interactive digital resume for Christian Dean.
 
 ## E Pluribus Unum
 
-As a multi-hyphenate professional with 14 years in Tech across functions, I have always struggled to define my skillset in terms of one role. Whether in 20 person startups or 100,000 international conglomerates, code sprints or QBR's with executive stakeholders, my greatest asset has always been my professional plasticiity.
+As a multi-hyphenate professional with 15 years in Tech across functions, I have always struggled to define my skillset in terms of one role. Whether in 20 person startups or 100,000 international conglomerates, code sprints or QBR's with executive stakeholders, my greatest asset has always been my professional plasticiity.
 So I built a digital resume that allows you highlight which experiences and skills fit your inquiry.
 
 ## How It Works

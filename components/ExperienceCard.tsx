@@ -57,7 +57,9 @@ export default function ExperienceCard({ entry, selected }: Props) {
               {entry.company}
             </h3>
             <span className="font-mono text-[11px] uppercase tracking-widest text-gray-mid">
-              {entry.startDate} — {entry.endDate}
+              {entry.startDate === entry.endDate
+                ? entry.startDate
+                : `${entry.startDate} — ${entry.endDate}`}
             </span>
           </div>
           <p className="mt-1 font-body text-[15px] text-ink/80">

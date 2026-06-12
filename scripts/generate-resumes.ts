@@ -56,7 +56,7 @@ function buildPdf(selected: PersonaId[]): Promise<void> {
     .fontSize(9)
     .fillColor(GRAY)
     .text(
-      'christian@christiandsmith.com  ·  (973) 866-5547  ·  New York, NY  ·  christiandsmith.com  ·  linkedin.com/in/chrsdsmth'
+      'cdsmith@alumni.stanford.edu  ·  (973) 634-0422  ·  Brooklyn, NY  ·  christiandsmith.com  ·  linkedin.com/in/cdsmith1990'
     );
 
   if (lensLabels.length > 0) {
@@ -103,7 +103,9 @@ function buildPdf(selected: PersonaId[]): Promise<void> {
       .font('Helvetica')
       .fontSize(9)
       .fillColor(GRAY)
-      .text(`   ${job.startDate} — ${job.endDate}`);
+      .text(
+        `   ${job.startDate === job.endDate ? job.startDate : `${job.startDate} — ${job.endDate}`}`
+      );
     doc
       .font('Helvetica')
       .fontSize(9.5)

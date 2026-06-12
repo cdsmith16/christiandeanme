@@ -27,23 +27,23 @@ const siteUrl = 'https://christiandsmith.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Christian Dean — Product Manager, Solutions Architect, AI Engineer',
+  title: 'Christian D. Smith — Product Manager, Solutions Architect, AI Engineer',
   description:
-    'Interactive resume for Christian Dean. 14 years building products, platforms, and data systems. Stanford SymSys, Emory MBA. Filter by role to see the experience that matters to you.',
+    'Interactive resume for Christian D. Smith. 15 years building products, platforms, and data systems. Stanford SymSys, Emory MBA. Filter by role to see the experience that matters to you.',
   alternates: {
     canonical: siteUrl,
   },
   openGraph: {
-    title: 'Christian Dean',
+    title: 'Christian D. Smith',
     description: 'Builder. Strategist. Polymath.',
     url: siteUrl,
-    siteName: 'Christian Dean',
+    siteName: 'Christian D. Smith',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Christian Dean',
+    title: 'Christian D. Smith',
     description: 'Builder. Strategist. Polymath.',
   },
   icons: {
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Christian Dean',
+  name: 'Christian D. Smith',
   jobTitle: [
     'Product Manager',
     'Solutions Architect',
@@ -64,7 +64,7 @@ const personSchema = {
   ],
   url: siteUrl,
   sameAs: [
-    'https://linkedin.com/in/chrsdsmth',
+    'https://linkedin.com/in/cdsmith1990',
     'https://github.com/cdsmith16',
     'https://smithlabs.llc',
   ],

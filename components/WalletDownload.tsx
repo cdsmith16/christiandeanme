@@ -32,7 +32,7 @@ export default function WalletDownload() {
                 Add to Apple Wallet
               </a>
               <a
-                href="/christian-dean.vcf"
+                href="/christiandean.vcf"
                 download
                 className="inline-flex items-center justify-center gap-2 rounded-lg border border-cream/20 px-6 py-3 font-display text-sm text-cream/80 transition-colors hover:border-amber hover:text-amber"
               >
