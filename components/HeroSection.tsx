@@ -17,17 +17,11 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
       <div className="relative mx-auto max-w-5xl px-6 py-20 md:px-10 md:py-28">
         <div className="grid gap-12 md:grid-cols-[1.3fr_1fr] md:items-end">
           <div>
-            <p
-              className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-amber animate-fade-in"
-              style={{ animationDelay: '0ms' }}
-            >
-              christiandean.me
             </p>
-            <h1
-              className="font-display text-5xl font-bold leading-[1.05] text-cream md:text-7xl animate-fade-in-up"
-              style={{ animationDelay: '0ms' }}
-            >
-              Christian D. Smith
+            <h1 className="font-display leading-[1.05] animate-fade-in-up" style={{ animationDelay: '0ms' }}>
+              <Link to="/" className="text-5xl font-bold text-cream md:text-7xl no-underline hover:text-cream">
+                Christian D. Smith
+              </Link>
             </h1>
             <p
               className="mt-2 font-display text-2xl font-light text-cream/70 md:text-3xl animate-fade-in-up"
