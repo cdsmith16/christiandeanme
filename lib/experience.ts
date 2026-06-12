@@ -99,7 +99,7 @@ export const experience: ExperienceEntry[] = [
   },
   {
     id: 'nielsen',
-    company: 'Nielsen Marketing Cloud (via Kahuna acquisition)',
+    company: 'Nielsen Marketing Cloud',
     role: 'Solutions Engineer & Integration Lead',
     startDate: '2017',
     endDate: '2020',
@@ -117,17 +117,37 @@ export const experience: ExperienceEntry[] = [
       },
       {
         id: 'nm-3',
-        text: 'Survived acqui-hire from Kahuna → Nielsen, navigating org integration while maintaining client delivery continuity',
+        text: 'Maintained client delivery continuity across org changes while serving as technical lead on strategic enterprise accounts',
         personas: ['technical-account-strategist', 'product-manager'],
       },
     ],
   },
   {
+    id: 'clever',
+    company: 'Clever',
+    role: 'Solutions Engineer',
+    startDate: '2016',
+    endDate: '2017',
+    location: 'San Francisco, CA',
+    bullets: [
+      {
+        id: 'cl-1',
+        text: 'Drove technical integrations between K-12 school district data systems and edtech application partners on the Clever platform',
+        personas: ['solutions-architect', 'data-engineer'],
+      },
+      {
+        id: 'cl-2',
+        text: 'Partnered with district administrators and application developers to scope secure rostering and SSO implementations',
+        personas: ['solutions-architect', 'technical-account-strategist'],
+      },
+    ],
+  },
+  {
     id: 'kahuna',
-    company: 'Kahuna (acquired by Nielsen)',
+    company: 'Kahuna',
     role: 'Solutions Engineer',
     startDate: '2015',
-    endDate: '2017',
+    endDate: '2016',
     location: 'San Francisco, CA',
     bullets: [
       {

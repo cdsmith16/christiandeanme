@@ -8,9 +8,11 @@ import {
   Database,
   Cpu,
   X,
+  FileDown,
   type LucideIcon,
 } from 'lucide-react';
 import { personas } from '@/lib/personas';
+import { resumePath } from '@/lib/resume';
 import type { PersonaId } from '@/lib/types';
 
 const ICONS: Record<string, LucideIcon> = {
@@ -102,21 +104,32 @@ export default function PersonaSelector({
             })}
           </div>
 
-          <p className="mt-3 font-mono text-[11px] text-gray-mid">
-            Showing{' '}
-            <span className="font-bold text-forest">{visibleCount}</span> of{' '}
-            <span className="font-bold text-forest">{totalCount}</span>{' '}
-            highlights
-            {selected.length > 0 && (
-              <span className="text-gray-mid/70">
-                {' '}
-                · filter:{' '}
-                {selected
-                  .map((id) => personas.find((p) => p.id === id)?.shortLabel)
-                  .join(' · ')}
-              </span>
-            )}
-          </p>
+          <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
+            <p className="font-mono text-[11px] text-gray-mid">
+              Showing{' '}
+              <span className="font-bold text-forest">{visibleCount}</span> of{' '}
+              <span className="font-bold text-forest">{totalCount}</span>{' '}
+              highlights
+              {selected.length > 0 && (
+                <span className="text-gray-mid/70">
+                  {' '}
+                  · filter:{' '}
+                  {selected
+                    .map((id) => personas.find((p) => p.id === id)?.shortLabel)
+                    .join(' · ')}
+                </span>
+              )}
+            </p>
+            <a
+              href={resumePath(selected)}
+              download
+              className="project-link inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-widest text-teal hover:text-forest"
+            >
+              <FileDown size={13} strokeWidth={1.75} />
+              {selected.length > 0 ? 'Download this resume' : 'Download full resume'}
+              <span className="text-gray-mid/70">(PDF)</span>
+            </a>
+          </div>
         </div>
       </div>
     </>

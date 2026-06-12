@@ -39,8 +39,8 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
               className="mt-6 font-display text-xl font-medium text-amber md:text-2xl animate-fade-in-up"
               style={{ animationDelay: '300ms' }}
             >
-              AI Product Engineer <span className="text-gray-mid">|</span>{' '}
-              Strategist
+              Product Engineer <span className="text-gray-mid">|</span>{' '}
+              Strategy
             </p>
             <div
               className="mt-8 flex flex-col gap-1 font-mono text-xs text-cream/60 animate-fade-in-up"
