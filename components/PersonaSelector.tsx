@@ -13,7 +13,8 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { personas } from '@/lib/personas';
-import { resumePath } from '@/lib/resume';
+import { LEAD_STORAGE_KEY, triggerResumeDownload } from '@/lib/downloadResume';
+import EmailGateModal from './EmailGateModal';
 import type { PersonaId } from '@/lib/types';
 
 const ICONS: Record<string, LucideIcon> = {
@@ -41,7 +42,16 @@ export default function PersonaSelector({
   totalCount,
 }: Props) {
   const [isStuck, setIsStuck] = useState(false);
+  const [isEmailGateOpen, setIsEmailGateOpen] = useState(false);
   const sentinelRef = useRef<HTMLDivElement>(null);
+
+  const handleDownloadClick = () => {
+    if (typeof window !== 'undefined' && sessionStorage.getItem(LEAD_STORAGE_KEY)) {
+      triggerResumeDownload(selected);
+      return;
+    }
+    setIsEmailGateOpen(true);
+  };
 
   useEffect(() => {
     const sentinel = sentinelRef.current;
@@ -122,18 +132,24 @@ export default function PersonaSelector({
                 </span>
               )}
             </p>
-            <a
-              href={resumePath(selected)}
-              download
+            <button
+              type="button"
+              onClick={handleDownloadClick}
               className="project-link inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-widest text-teal hover:text-forest"
             >
               <FileDown size={13} strokeWidth={1.75} />
               {selected.length > 0 ? 'Download this resume' : 'Download full resume'}
               <span className="text-gray-mid/70">(PDF)</span>
-            </a>
+            </button>
           </div>
         </div>
       </div>
+      {isEmailGateOpen && (
+        <EmailGateModal
+          selected={selected}
+          onClose={() => setIsEmailGateOpen(false)}
+        />
+      )}
     </>
   );
 }

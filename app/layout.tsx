@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Raleway, Oxygen, JetBrains_Mono } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 
 const raleway = Raleway({
@@ -91,6 +92,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
         />
+        <Analytics />
       </body>
     </html>
   );
