@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { personas } from '@/lib/personas';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -52,10 +53,13 @@ export async function POST(request: Request) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          typecast: true,
           fields: {
             Email: email,
             Name: body.name?.trim() || '',
-            Personas: body.personas?.join(', ') || '',
+            Personas: (body.personas || []).filter((id) =>
+              personas.some((p) => p.id === id)
+            ),
             'Resume Slug': body.resumeSlug || '',
             Source: 'resume_download',
           },
