@@ -1,13 +1,13 @@
 import { ImageResponse } from 'next/og';
 
-export const alt = 'Christian Dean — Builder. Strategist. Polymath.';
+export const alt = 'Christian Dean: Builder. Strategist. Polymath.';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 async function loadRaleway(weight: 300 | 700) {
   const css = await fetch(
     `https://fonts.googleapis.com/css2?family=Raleway:wght@${weight}&text=${encodeURIComponent(
-      'Christian D. Smith Builder. Strategist. Polymath. CHRISTIANDSMITH.COM ·PMSATAMDEAIVCHOSEYURLN—'
+      'Christian D. Smith Builder. Strategist. Polymath. CHRISTIANDSMITH.COM ·PMSATAMDEAIVCHOSEYURLN:'
     )}`,
     { headers: { 'User-Agent': 'Mozilla/5.0' } }
   ).then((r) => r.text());
@@ -85,7 +85,7 @@ export default async function OgImage() {
             opacity: 0.55,
           }}
         >
-          PM · SA · TAM · DE · AI · VC — CHOOSE YOUR LENS
+          PM · SA · TAM · DE · AI · VC: CHOOSE YOUR LENS
         </div>
       </div>
     ),

@@ -37,7 +37,7 @@ export interface ExperienceEntry {
   startDate: string;
   endDate: string;
   location: string;
-  /** One-line company/chapter context shown under the role — the story's connective tissue. */
+  /** One-line company/chapter context shown under the role: the story's connective tissue. */
   summary?: string;
   logoPath?: string;
   bullets: BulletPoint[];

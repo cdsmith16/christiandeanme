@@ -27,9 +27,9 @@ const siteUrl = 'https://christiandsmith.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Christian D. Smith — Product Manager, Solutions Architect, AI Engineer',
+  title: 'Christian D. Smith: Product Manager, Solutions Architect, AI Engineer',
   description:
-    'Interactive resume for Christian D. Smith. 15 years building products, platforms, and data systems. Stanford SymSys, Emory MBA. Filter by role to see the experience that matters to you.',
+    'Interactive resume for Christian D. Smith. 12+ years building products, platforms, and data systems. Stanford SymSys, Emory MBA. Filter by role to see the experience that matters to you.',
   alternates: {
     canonical: siteUrl,
   },

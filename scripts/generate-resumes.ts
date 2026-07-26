@@ -19,7 +19,7 @@ const OUT_DIR = join(process.cwd(), 'public', 'resumes');
 const sanitize = (s: string) => s.replace(/\s*→\s*/g, ' to ');
 
 const MASTER_PROFILE =
-  'Technical leader with 15 years building at the intersection of product, engineering, and business strategy — from shipping Windows 8.1 at Microsoft to $6B deal platforms at AWS to founding an AI product studio. Stanford-trained in Human-Computer Interaction; Emory MBA with full Consortium fellowship; AWS Certified Solutions Architect.';
+  'Technical leader with 12+ years building at the intersection of product, engineering, and business strategy: from shipping Windows 8.1 at Microsoft to $6B deal platforms at AWS to founding an AI product studio. Stanford-trained in Human-Computer Interaction; Emory MBA with full Consortium fellowship; AWS Certified Solutions Architect.';
 
 const INK = '#1A1A1A';
 const FOREST = '#1B5E20';
@@ -36,7 +36,7 @@ function buildPdf(selected: PersonaId[]): Promise<void> {
     size: 'LETTER',
     margins: { top: 54, bottom: 54, left: 58, right: 58 },
     info: {
-      Title: `Christian D. Smith — Resume${lensLabels.length ? ` (${lensLabels.join(', ')})` : ''}`,
+      Title: `Christian D. Smith Resume${lensLabels.length ? ` (${lensLabels.join(', ')})` : ''}`,
       Author: 'Christian D. Smith',
     },
   });

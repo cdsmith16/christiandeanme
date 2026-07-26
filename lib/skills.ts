@@ -2,12 +2,12 @@ import type { SkillCategory } from './types';
 
 export const skills: SkillCategory[] = [
   {
-    name: 'Cloud & Certifications',
+    name: 'Cloud Platforms & Certifications',
     skills: [
       'AWS Certified Solutions Architect (SAA)',
       'AWS Certified Cloud Practitioner',
-      'GCP',
       'Vercel',
+      'GCP',
       'Heroku',
       'Docker',
     ],
@@ -32,6 +32,7 @@ export const skills: SkillCategory[] = [
       'Snowflake',
       'BigQuery',
       'Databricks',
+      'MongoDB',
       'ETL Pipelines',
       'ELK/Kibana',
       'Looker',
@@ -74,6 +75,6 @@ export const skills: SkillCategory[] = [
   },
   {
     name: 'Spoken Languages',
-    skills: ['Spanish (Professional)', 'Portuguese (Elementary)', 'Italian (Basic)'],
+    skills: ['Spanish (High Conversational)', 'Portuguese (Elementary)', 'Italian (Basic)'],
   },
 ];
