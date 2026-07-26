@@ -4,7 +4,7 @@ Interactive digital resume for Christian Dean.
 
 ## E Pluribus Unum
 
-As a multi-hyphenate professional with 15 years in Tech across functions, I have always struggled to define my skillset in terms of one role. Whether in 20 person startups or 100,000 international conglomerates, code sprints or QBR's with executive stakeholders, my greatest asset has always been my professional plasticiity.
+As a multi-hyphenate professional with 12+ years in Tech across functions, I have always struggled to define my skillset in terms of one role. Whether in 20 person startups or 100,000 international conglomerates, code sprints or QBR's with executive stakeholders, my greatest asset has always been my professional plasticiity.
 So I built a digital resume that allows you highlight which experiences and skills fit your inquiry.
 
 ## How It Works
@@ -15,12 +15,12 @@ Six role filters sit at the top of the page. Tap one (or several) and the experi
 
 **The perspectives:**
 
-- **Product Manager** — roadmaps, 0→1 launches, stakeholder alignment, value
-- **Solutions Architect** — system design, integrations & deployments, technical pre-sales
-- **Technical Account Manager** — enterprise relationships, strategic advisory, client growth, deals
-- **Data Engineer** — pipelines, analytics platforms, ML infrastructure, secure ETL
-- **AI Product Engineer** — full-stack development, AI-accelerated
-- **Venture & Strategy** — deal structuring, financial modeling, investment theses
+- **Product Manager**: roadmaps, 0→1 launches, stakeholder alignment, value
+- **Solutions Architect**: system design, integrations & deployments, technical pre-sales
+- **Technical Account Manager**: enterprise relationships, strategic advisory, client growth, deals
+- **Data Engineer**: pipelines, analytics platforms, ML infrastructure, secure ETL
+- **AI Product Engineer**: full-stack development, AI-accelerated
+- **Venture & Strategy**: deal structuring, financial modeling, investment theses
 
 Same career. Six stories. Each one real.
 

@@ -5,21 +5,19 @@ export const experience: ExperienceEntry[] = [
     id: 'smith-labs',
     company: 'Smith Labs LLC',
     role: 'Founder & Tech Industry Consultant',
-    startDate: '2021',
+    startDate: '2024',
     endDate: 'Present',
     location: 'New York, NY',
-    summary: 'Product studio manifesting visions — mine and clients’ — into shipped software.',
+    summary: 'Product studio manifesting visions (mine and clients’) into shipped software.',
     bullets: [
       {
         id: 'sl-1',
-        text: 'Founded product studio building AI-powered consumer and productivity tools (JoLo, Card Benefits Map, Present, Link Strippa)',
+        text: 'Founded product studio building AI-powered consumer and productivity tools (JoLo, ReserveMap, Present, Link Strippa)',
         personas: ['product-manager', 'ai-product-engineer'],
-        links: [{ text: 'smithlabs.llc', url: 'https://smithlabs.llc', type: 'project' }],
-      },
-      {
-        id: 'sl-2',
-        text: 'Accepted to Visible Hands NYC 2022, a pre-seed accelerator investing in underrepresented founders',
-        personas: ['product-manager', 'venture-strategist'],
+        links: [
+          { text: 'smithlabs.llc', url: 'https://smithlabs.llc', type: 'project' },
+          { text: 'ReserveMap', url: 'https://reservemap.vercel.app', type: 'project' },
+        ],
       },
       {
         id: 'sl-3',
@@ -38,7 +36,7 @@ export const experience: ExperienceEntry[] = [
       },
       {
         id: 'sl-6',
-        text: 'Developed investment thesis around "direct thought to execution" — the convergence of brain-computer interfaces with orchestrated AI agents',
+        text: 'Developed investment thesis around "direct thought to execution": the convergence of brain-computer interfaces with orchestrated AI agents',
         personas: ['venture-strategist', 'ai-product-engineer'],
       },
     ],
@@ -51,11 +49,11 @@ export const experience: ExperienceEntry[] = [
     endDate: '2024',
     location: 'Seattle & New York',
     summary:
-      'Technical deal execution for AWS’s largest enterprise accounts — the intersection of product, sales, and finance.',
+      'Technical deal execution for AWS’s largest enterprise accounts: the intersection of product, sales, and finance.',
     bullets: [
       {
         id: 'aws-1',
-        text: 'Owned high-visibility Strategic Approvals platform used by ~400 strategic sales leaders and processing $6B+ in enterprise deals — product owner, SRE, and data pipeline owner in one',
+        text: 'Owned high-visibility Strategic Approvals platform used by ~400 strategic sales leaders and processing $6B+ in enterprise deals: product owner, SRE, and data pipeline owner in one',
         personas: ['product-manager', 'solutions-architect'],
       },
       {
@@ -92,7 +90,7 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       {
         id: 'tl-1',
-        text: 'Spearheaded mobile product strategy for a $45M+ opportunity — built the financial model, roadmap, and pilot implementations from market research through launch, achieving $3M revenue',
+        text: 'Spearheaded mobile product strategy for a $45M+ opportunity: built the financial model, roadmap, and pilot implementations from market research through launch, achieving $3M revenue',
         personas: ['product-manager', 'venture-strategist'],
       },
       {
@@ -123,40 +121,14 @@ export const experience: ExperienceEntry[] = [
     ],
   },
   {
-    id: 'impact',
-    company: 'Impact',
-    role: 'Sr. Solutions Architect',
-    startDate: '2018',
-    endDate: '2019',
-    location: 'New York, NY',
-    summary: 'Full-funnel ad verification (Forensiq) for the programmatic ecosystem.',
-    bullets: [
-      {
-        id: 'im-1',
-        text: "Led implementations for Forensiq, programmatic advertising's only full-funnel ad verification suite",
-        personas: ['solutions-architect'],
-      },
-      {
-        id: 'im-2',
-        text: 'Managed pixel, JavaScript, and API implementations with DSPs, Networks, SSPs, and Publishers',
-        personas: ['solutions-architect', 'technical-account-manager'],
-      },
-      {
-        id: 'im-3',
-        text: 'Troubleshot integrations and analyzed terabytes of data using MongoDB and SQL tools (Snowflake, BigQuery)',
-        personas: ['data-engineer'],
-      },
-    ],
-  },
-  {
     id: 'nielsen',
     company: 'Nielsen Marketing Cloud',
     role: 'Data Solutions Lead',
     startDate: '2017',
-    endDate: '2019',
+    endDate: '2018',
     location: 'New York, NY',
     summary:
-      'Nielsen’s DMP — the bridge between product engineering and global account teams.',
+      'Nielsen’s DMP: the bridge between product engineering and global account teams.',
     bullets: [
       {
         id: 'nm-1',
@@ -170,7 +142,7 @@ export const experience: ExperienceEntry[] = [
       },
       {
         id: 'nm-3',
-        text: 'Owned Business Intelligence (Snowflake, SiSense) and ETL pipeline serving global accounts — reduced discrepancies below 5%, recouping 24% of sales previously lost to make-goods',
+        text: 'Owned Business Intelligence (Snowflake, SiSense) and ETL pipeline serving global accounts: reduced discrepancies below 5%, recouping 24% of sales previously lost to make-goods',
         personas: ['data-engineer'],
       },
       {
@@ -197,7 +169,7 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       {
         id: 'ic-1',
-        text: 'Built TheFlipSide — full original website (HTML/CSS/JS) for the apolitical news newsletter',
+        text: 'Built TheFlipSide: full original website (HTML/CSS/JS) for the apolitical news newsletter',
         personas: ['ai-product-engineer'],
         links: [{ text: 'theflipside.io', url: 'https://www.theflipside.io/', type: 'project' }],
       },
@@ -224,12 +196,12 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       {
         id: 'cl-1',
-        text: 'Technical lead for developer relations — led trainings for 200+ educational app companies and advised strategic accounts like Schoology',
+        text: 'Technical lead for developer relations: led trainings for 200+ educational app companies and advised strategic accounts like Schoology',
         personas: ['technical-account-manager', 'solutions-architect'],
       },
       {
         id: 'cl-2',
-        text: 'Oversaw outreach, documentation, and full execution of legacy API deprecation, saving $50K+/yr in engineering labor',
+        text: 'Drove full deprecation of the legacy Events API (30M events/day) in partnership with the CTO, aligning engineering and 200+ external developers to achieve 100% client migration and $1.4M in annual infrastructure savings',
         personas: ['product-manager', 'solutions-architect'],
       },
       {
@@ -252,11 +224,11 @@ export const experience: ExperienceEntry[] = [
     endDate: '2016',
     location: 'Palo Alto / Redwood City, CA',
     summary:
-      'Sequoia-backed marketing automation startup — joined post-Series A, stayed through acquisition.',
+      'Sequoia-backed marketing automation startup; joined post-Series A during hypergrowth.',
     bullets: [
       {
         id: 'k-1',
-        text: 'Generated $2M net new ARR (33% of total) through Intelligent SDK rollout and strategic client integrations, from Series A through acquisition',
+        text: 'Generated $2M net new ARR (33% of company total) through Intelligent SDK rollout and strategic client integrations',
         personas: ['solutions-architect', 'technical-account-manager', 'venture-strategist'],
       },
       {
@@ -268,11 +240,6 @@ export const experience: ExperienceEntry[] = [
         id: 'k-3',
         text: 'Led product discovery for Campaign API; aggregated user stories and shipped customer-driven features with engineering (AppleFeedback API, Push-All-Devices, Intelligent Attributes)',
         personas: ['product-manager'],
-      },
-      {
-        id: 'k-4',
-        text: 'Partnered with CTO to deprecate a 30M events/day API, saving $1.4M/yr while achieving 100% client migration',
-        personas: ['solutions-architect', 'data-engineer'],
       },
       {
         id: 'k-5',
@@ -291,13 +258,13 @@ export const experience: ExperienceEntry[] = [
     company: 'Microsoft',
     role: 'Program Manager, Windows Audio',
     startDate: '2013',
-    endDate: '2014',
+    endDate: '2013',
     location: 'Redmond, WA',
-    summary: 'Windows platform org — shipped Windows 8.1 and the Surface 2 launch.',
+    summary: 'Windows platform org: shipped Windows 8.1 and the Surface 2 launch.',
     bullets: [
       {
         id: 'ms-1',
-        text: 'PM on Windows Audio team — shipped Windows 8.1 including the Surface 2 launch',
+        text: 'PM on Windows Audio team: shipped Windows 8.1 including the Surface 2 launch',
         personas: ['product-manager'],
       },
       {
@@ -327,7 +294,7 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       {
         id: 'tv-1',
-        text: 'Bridged UI engineering and UX design teams during HDUI development — built ActionScript3 prototypes, wireframes, and mockups in agile workflow',
+        text: 'Bridged UI engineering and UX design teams during HDUI development: built ActionScript3 prototypes, wireframes, and mockups in agile workflow',
         personas: ['product-manager', 'ai-product-engineer'],
       },
     ],

@@ -7,7 +7,7 @@ export const personas: Persona[] = [
     shortLabel: 'PM',
     description: 'Roadmaps, stakeholder alignment, 0→1 product launches',
     narrative:
-      'Product leadership from quiet internal infrastructure to 0→1 launches: Windows 8.1 at Microsoft, Campaign API at Kahuna, a $3M mobile product at TripleLift, and a deal platform processing $6B+ at AWS. Stanford HCI and an Emory MBA — user needs, translated into business value.',
+      'Product leadership from quiet internal infrastructure to 0→1 launches: Windows 8.1 at Microsoft, Campaign API at Kahuna, a $3M mobile product at TripleLift, and a deal platform processing $6B+ at AWS. Stanford HCI and an Emory MBA: user needs, translated into business value.',
     icon: 'LayoutGrid',
     color: '#F5A623',
   },
@@ -27,7 +27,7 @@ export const personas: Persona[] = [
     shortLabel: 'TAM',
     description: 'Client-facing strategy, enterprise relationships, account growth',
     narrative:
-      'The technical counterpart enterprise accounts trust: 125% net revenue retention at Kahuna, $224M defended at TripleLift, $225M renewals structured at AWS. A decade of relationships kept — and grown — through technical credibility.',
+      'The technical counterpart enterprise accounts trust: 125% net revenue retention at Kahuna, $224M defended at TripleLift, $225M renewals structured at AWS. A decade of relationships kept (and grown) through technical credibility.',
     icon: 'Users',
     color: '#F5A623',
   },
@@ -37,7 +37,7 @@ export const personas: Persona[] = [
     shortLabel: 'DE',
     description: 'Data pipelines, BI ownership, analytics platforms',
     narrative:
-      'Hands-on with the modern data stack — Snowflake, BigQuery, ELK, Looker — owning ETL pipelines and BI that recouped 24% of lost revenue at Nielsen and produced the analysis that unlocked 24% Y1 growth at AWS.',
+      'Hands-on with the modern data stack (Snowflake, BigQuery, ELK, Looker), owning ETL pipelines and BI that recouped 24% of lost revenue at Nielsen and produced the analysis that unlocked 24% Y1 growth at AWS.',
     icon: 'Database',
     color: '#F5A623',
   },
@@ -47,7 +47,7 @@ export const personas: Persona[] = [
     shortLabel: 'AI',
     description: 'Full-stack AI applications, LLM integration, agentic pipelines',
     narrative:
-      'Full-stack AI builder: agentic pipelines with Claude Code, LLM-powered products, Next.js/Vercel deployments. Smith Labs is the culmination of 15 years shipping production software — now with AI as the daily anchor.',
+      'Full-stack AI builder: agentic pipelines with Claude Code, LLM-powered products, Next.js/Vercel deployments. Smith Labs is the culmination of 12+ years shipping production software, now with AI as the daily anchor.',
     icon: 'Cpu',
     color: '#F5A623',
   },
@@ -57,7 +57,7 @@ export const personas: Persona[] = [
     shortLabel: 'VC',
     description: 'Deal structuring, financial modeling, investment theses',
     narrative:
-      "An operator's lens on capital: structured $225M AWS renewals, built the financial model behind a $45M product bet, won VCIC Atlanta 2021, VP of Emory's Entrepreneurship & VC Club — now developing investment theses at Smith Labs.",
+      "An operator's lens on capital: structured $225M AWS renewals, built the financial model behind a $45M product bet, won VCIC Atlanta 2021, VP of Emory's Entrepreneurship & VC Club, now developing investment theses at Smith Labs.",
     icon: 'TrendingUp',
     color: '#F5A623',
   },

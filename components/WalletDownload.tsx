@@ -18,7 +18,7 @@ export default function WalletDownload() {
                 Add me to your wallet
               </h2>
               <p className="mt-4 max-w-lg font-body text-[15px] text-cream/70">
-                Download my digital business card for Apple Wallet — phone,
+                Download my digital business card for Apple Wallet: phone,
                 email, LinkedIn, and a QR code to this page.
               </p>
             </div>

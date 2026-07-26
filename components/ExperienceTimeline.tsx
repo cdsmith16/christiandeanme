@@ -20,7 +20,7 @@ export default function ExperienceTimeline({ selected }: Props) {
         <ScrollReveal>
           <header className="mb-10 md:mb-14">
             <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-teal/80">
-              15 years · 10 companies · 1 career
+              12+ years · 9 companies · 1 career
             </p>
             <h2 className="mt-2 font-display text-3xl font-bold text-forest md:text-4xl">
               Experience

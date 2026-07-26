@@ -46,8 +46,8 @@ export default function HeroSection({ selected, onTogglePersona }: Props) {
               className="mt-6 max-w-md font-body text-[15px] leading-relaxed text-cream/70 animate-fade-in-up"
               style={{ animationDelay: '400ms' }}
             >
-              Fifteen years building at the intersection of product,
-              engineering, and business strategy — Microsoft, Sequoia-backed
+              Twelve-plus years building at the intersection of product,
+              engineering, and business strategy: Microsoft, Sequoia-backed
               startups, AWS, and now Smith Labs. One career, many lenses.
               Choose the one that matches what you&apos;re hiring for.
             </p>
