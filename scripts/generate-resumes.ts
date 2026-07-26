@@ -1,7 +1,11 @@
 /**
- * Pre-generates resume PDFs for every persona combination (2^5 = 32 files,
- * including the unfiltered full resume) into public/resumes/. Runs as the
- * `prebuild` npm script so the PDFs always reflect the data in lib/.
+ * Pre-generates one resume PDF per persona combination into public/resumes/.
+ * Runs as the `prebuild` npm script so the PDFs always reflect the data in lib/.
+ *
+ * The unfiltered combination is skipped: christian-d-smith-resume.pdf is the
+ * authored extended resume (the one attached to applications, with the Early
+ * Career section) and is committed to the repo. Regenerating it here would
+ * overwrite that file at build time.
  */
 import PDFDocument from 'pdfkit';
 import { createWriteStream, mkdirSync } from 'node:fs';
@@ -187,6 +191,7 @@ async function main() {
   const ids = personas.map((p) => p.id);
   let count = 0;
   for (const combo of combinations(ids)) {
+    if (combo.length === 0) continue; // authored full resume, committed
     await buildPdf(combo);
     count++;
   }

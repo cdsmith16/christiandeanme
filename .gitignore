@@ -12,8 +12,11 @@
 /.next/
 /out/
 
-# generated resume PDFs (built by scripts/generate-resumes.ts via prebuild)
-/public/resumes/
+# generated resume PDFs (built by scripts/generate-resumes.ts via prebuild).
+# The unfiltered full resume is the authored PDF and is committed, so ignore
+# the directory contents rather than the directory itself.
+/public/resumes/*
+!/public/resumes/christian-d-smith-resume.pdf
 
 # production
 /build
