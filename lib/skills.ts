@@ -31,6 +31,8 @@ export const skills: SkillCategory[] = [
     skills: [
       'Snowflake',
       'BigQuery',
+      'Redshift',
+      'Athena',
       'Databricks',
       'MongoDB',
       'ETL Pipelines',
@@ -44,7 +46,10 @@ export const skills: SkillCategory[] = [
     name: 'Product & Program',
     skills: [
       'Agile/SCRUM',
+      'Jira & Confluence',
       'Roadmapping',
+      'OKR/KPI Design',
+      'SLA & ITSM',
       'PRDs & Functional Specs',
       'API Design',
       'Wireframing (Sketch, Figma)',
